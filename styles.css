@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+#box1 {
+    border: 10px double #ff5733;
+    transform: rotate(-10deg);
+}
+
+#box2 {
+    border: 10px double #33ff57;
+    transform: rotate(-5deg);
+}
+
+#box3 {
+    border: 10px double #5733ff;
+    transform: rotate(0deg);
+}
+
+#box4 {
+    border: 10px double #ff5733;
+    transform: rotate(5deg);
+}
+
+#box5 {
+    border: 10px double #33ff57;
+    transform: rotate(10deg);
+}
