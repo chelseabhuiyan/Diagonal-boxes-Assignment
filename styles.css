@@ -1,37 +1,43 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color: thistle;
+}
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .box {
-    padding: 10px;
-    margin: 10px;
-    color: white;
-    text-align: center;
+    width: 100px;                       /* width of each box */
+    height: 100px;                      /* height of each box */
+    padding: 0px;                       /* this makes it so the corners of each box touch*/
+    margin: 0px;                        /*space above and below each box so making it 0px makes corners touch */
+    color: red;                        /* text inside the box color*/
+    text-align: center;                 /* puts the text in the center*/
 }
 
 #box1 {
-    border: 10px double #ff5733;
-    transform: rotate(-10deg);
+    border: 10px double palevioletred;
+    transform: translateX(0px);
 }
 
 #box2 {
-    border: 10px double #33ff57;
-    transform: rotate(-5deg);
+    border: 10px double purple;
+    transform: translateX(120px);
 }
 
 #box3 {
-    border: 10px double #5733ff;
-    transform: rotate(0deg);
+    border: 10px double rebeccapurple;
+    transform: translateX(240px);
 }
 
 #box4 {
-    border: 10px double #ff5733;
-    transform: rotate(5deg);
+    border: 10px double royalblue;
+    transform: translateX(360px);
 }
 
 #box5 {
-    border: 10px double #33ff57;
-    transform: rotate(10deg);
-}
+    border: 10px double blueviolet;
+    transform: translateX(480px);
+} 
