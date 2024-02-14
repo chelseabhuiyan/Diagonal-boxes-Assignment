@@ -1,16 +1,18 @@
 html{
     height: 100%;
     width: 100%;
+    margin:0;
     background-color: thistle;
 }
 body {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .box {
-    width: 100px;                       /* width of each box */
-    height: 100px;                      /* height of each box */
+    width: 20vw;                       /* width of each box */
+    height: 20vw;                      /* height of each box */
     padding: 0px;                       /* this makes it so the corners of each box touch*/
     margin: 0px;                        /*space above and below each box so making it 0px makes corners touch */
     color: red;                        /* text inside the box color*/
@@ -19,25 +21,25 @@ body {
 
 #box1 {
     border: 10px double palevioletred;
-    transform: translateX(0px);
+    transform: translateX(0);
 }
 
 #box2 {
     border: 10px double purple;
-    transform: translateX(120px);
+    transform: translateX(21vw);
 }
 
 #box3 {
     border: 10px double rebeccapurple;
-    transform: translateX(240px);
+    transform: translateX(42vw);
 }
 
 #box4 {
     border: 10px double royalblue;
-    transform: translateX(360px);
+    transform: translateX(73vw);
 }
 
 #box5 {
     border: 10px double blueviolet;
-    transform: translateX(480px);
+    transform: translateX(94vw);
 } 
